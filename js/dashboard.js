@@ -1,10 +1,7 @@
 const apiUrl = 'https://book-api-uts.vercel.app/api';
 const apiKey = localStorage.getItem('apiKey');
 
-// Redirect ke login jika belum ada API key
-if (!apiKey) {
-  window.location.href = 'index.html';
-}
+if (!apiKey) {window.location.href = 'index.html';}
 
 document.addEventListener('DOMContentLoaded', () => {
   const userEmail = localStorage.getItem('userEmail');
