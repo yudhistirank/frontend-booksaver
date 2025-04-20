@@ -9,10 +9,13 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-dark bg-primary">
-  <div class="container-fluid d-flex justify-content-between">
-    <span class="navbar-brand mb-0 h1">BookSaver</span>
-    <button class="btn btn-light btn-sm" onclick="logout()">Logout</button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand mb-0 h1" href="#">BookSaver</a>
+    <div class="d-flex align-items-center gap-3">
+      <span id="userGreeting" class="text-white fw-semibold"></span>
+      <button id="logoutButton" class="btn btn-light btn-sm">Logout</button>
+    </div>
   </div>
 </nav>
 
@@ -90,7 +93,7 @@
           <span class="px-1 text-muted">|</span>
           NPM 22081010055
           <span class="px-1 text-muted">|</span>
-          Book Saver adalah solusi penyimpanan buku-buku secara online.
+          BookSaver adalah aplikasi sederhana solusi penyimpanan buku-buku kamu secara online.
       </div>
   </div>
 </footer>

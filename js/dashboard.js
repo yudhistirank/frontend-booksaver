@@ -7,6 +7,14 @@ if (!apiKey) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  const userEmail = localStorage.getItem('userEmail');
+  if (userEmail) {
+    const greeting = document.getElementById('userGreeting');
+    if (greeting) {
+      greeting.textContent = `Halo, ${userEmail}`;
+    }
+  }
+
   fetchBooks();
 
   const form = document.getElementById('bookForm');
