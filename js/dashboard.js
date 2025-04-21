@@ -179,6 +179,7 @@ async function deleteBook(id) {
   }
 }
 
+// Fungsi logout
 function logout() {
   localStorage.removeItem('apiKey');
   window.location.href = 'index.html';
