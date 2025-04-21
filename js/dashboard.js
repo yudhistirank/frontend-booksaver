@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   fetchBooks();
 
+  // Menangani penambahan buku
   const form = document.getElementById('bookForm');
   if (form) {
     form.addEventListener('submit', async (e) => {
@@ -45,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
-
+  // Menangani pengeditan buku
   const editForm = document.getElementById('editBookForm');
   if (editForm) {
     editForm.addEventListener('submit', async (e) => {
