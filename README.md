@@ -22,7 +22,7 @@
 
 1. Clone repository frontend:
    ```bash
-   git clone https://github.com/username/book-saver-frontend.git
+   git clone https://github.com/yudhistirank/book-saver-frontend.git
    cd book-saver-frontend
    ```
 
