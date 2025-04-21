@@ -18,16 +18,7 @@
 - JavaScript
 - Backend: Express.js (Node.js) + MongoDB Atlas (NoSQL}
 
-## 🚀 Cara Running
+## 🚀 Klik Link untuk Akses BookSaver
 
-1. Clone repository frontend:
-   ```bash
-   git clone https://github.com/yudhistirank/book-saver-frontend.git
-   cd book-saver-frontend
-   ```
-
-2. Buka file `index.html` di browser.
-
-> Pastikan backend BookSaver sudah berjalan atau sudah dideploy di URL seperti:
-> [https://book-api-uts.vercel.app](https://book-api-uts.vercel.app)
+**https://booksaver.vercel.app/**
 
